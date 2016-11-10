@@ -167,4 +167,4 @@ bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle # mute sound
 bindsym $mod+i exec chromium
 # Notificador de Actualizaciones 
 exec --no-startup-id aarchup
-exec --no-startup-id nitrogen --restore
+exec --no-startup-id synclient TapButton1=1 TapButton2=1 TapButton3=1
