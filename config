@@ -182,7 +182,7 @@ bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle # mute sound
 
 #shortcuts
 bindsym $mod+i exec chromium
-bindsym $mod+c exec caja
+bindsym $mod+c exec pcmanfm
 # Notificador de Actualizaciones 
 exec --no-startup-id synclient TapButton1=1 TapButton2=1 TapButton3=1
 exec --no-startup-id dropbox start
