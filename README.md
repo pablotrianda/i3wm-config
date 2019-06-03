@@ -8,3 +8,4 @@ Archivos de configuración para i3wm
 * Para saber el sink number del audio: `pactl list sink`
 # Extenciones
 * Mejora de dmenu: [dmenu_extended](https://github.com/markjones112358/dmenu-extended) 
+* Control de volumen [playerctl](https://github.com/acrisci/playerctl/releases)
