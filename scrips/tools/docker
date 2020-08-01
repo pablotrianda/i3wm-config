@@ -1,0 +1,10 @@
+#!/bin/bash
+
+CONTAINERS=$(docker ps | sed 1d | head -n 2 | wc -l)
+
+if [ "$CONTAINERS" -eq "0" ]; then
+   echo "";
+   exit;
+fi
+
+echo "$CONTAINERS"

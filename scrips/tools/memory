@@ -1,0 +1,3 @@
+#!/bin/bash
+
+free -h | sed -n "/used/{n;p}" | awk '{print $3}'
