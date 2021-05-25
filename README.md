@@ -1,5 +1,7 @@
 # i3wm-config
 Archivos de configuración para i3wm
+# Install
+* On Ubuntu : `sudo apt intall i3-wm i3status i3blocks rofi`
 # Directorio de Archivos:
 * config -> ~/.config/i3/
 * i3Status -> ~/.config/i3status/
